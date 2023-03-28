@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "628120345396",
+    "project_id": "buddyup-c1b2a",
+    "storage_bucket": "buddyup-c1b2a.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:628120345396:android:7cdb18d9741178afda6361",
+        "android_client_info": {
+          "package_name": "com.sai.buddyup"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "628120345396-sfl9ob1e8v1rvjbuf3jdjkf030qmeov6.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDAY5Wgy7JiG4uz7TX_Cpby-sxsYVzTOLs"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "628120345396-sfl9ob1e8v1rvjbuf3jdjkf030qmeov6.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

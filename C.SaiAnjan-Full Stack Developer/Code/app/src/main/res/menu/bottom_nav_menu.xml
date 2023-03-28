@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@id/chatList"
+        android:icon="@android:drawable/stat_notify_chat"
+        android:title="@string/messages" />
+
+    <item
+        android:id="@+id/findFragment"
+        android:icon="?android:attr/actionModeWebSearchDrawable"
+        android:title="@string/find" />
+
+    <item
+        android:id="@+id/profile"
+        android:icon="@drawable/account_circle_48px"
+        android:title="@string/profile" />
+
+</menu>

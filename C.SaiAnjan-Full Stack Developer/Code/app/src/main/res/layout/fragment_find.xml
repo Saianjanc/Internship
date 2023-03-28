@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context=".FindFragment">
+
+    <com.google.android.material.button.MaterialButtonToggleGroup
+        android:id="@+id/group"
+        android:layout_width="wrap_content"
+        android:layout_height="50dp"
+        android:layout_centerHorizontal="true"
+        app:singleSelection="true"
+        app:checkedButton="@id/btn1">
+
+            <Button
+                android:id="@+id/btn1"
+                android:layout_width="50dp"
+                android:layout_height="match_parent"
+                style="@style/Widget.MaterialComponents.Button.OutlinedButton"
+                android:text="All"
+                android:textSize="10dp"
+                android:textAllCaps="false"/>
+
+            <Button
+                android:id="@+id/btn2"
+                android:layout_width="50dp"
+                android:layout_height="match_parent"
+                style="@style/Widget.MaterialComponents.Button.OutlinedButton"
+                android:text="Cricket"
+                android:padding="0dp"
+                android:textAllCaps="false"
+                android:textSize="10dp" />
+
+            <Button
+                android:id="@+id/btn3"
+                android:layout_width="58dp"
+                android:layout_height="match_parent"
+                android:padding="0dp"
+                style="@style/Widget.MaterialComponents.Button.OutlinedButton"
+                android:text="Basketball"
+                android:textSize="10dp"
+                android:textAllCaps="false" />
+
+            <Button
+                android:id="@+id/btn4"
+                android:layout_width="50dp"
+                android:layout_height="match_parent"
+                android:padding="0dp"
+                style="@style/Widget.MaterialComponents.Button.OutlinedButton"
+                android:text="Football"
+                android:textSize="10dp"
+                android:textAllCaps="false"/>
+
+
+            <Button
+                android:id="@+id/btn5"
+                android:layout_width="52dp"
+                android:layout_height="match_parent"
+                android:padding="0dp"
+                style="@style/Widget.MaterialComponents.Button.OutlinedButton"
+                android:text="Formula1"
+                android:textSize="10dp"
+                android:textAllCaps="false"/>
+
+            <Button
+                android:id="@+id/btn6"
+                android:layout_width="50dp"
+                android:layout_height="match_parent"
+                android:padding="0dp"
+                style="@style/Widget.MaterialComponents.Button.OutlinedButton"
+                android:text="Kabaddi"
+                android:textSize="10dp"
+                android:textAllCaps="false"/>
+            <Button
+                android:id="@+id/btn7"
+                android:layout_width="50dp"
+                android:layout_height="match_parent"
+                android:padding="0dp"
+                style="@style/Widget.MaterialComponents.Button.OutlinedButton"
+                android:text="Tennis"
+                android:textSize="10dp"
+                android:textAllCaps="false"/>
+
+        </com.google.android.material.button.MaterialButtonToggleGroup>
+
+    <ProgressBar
+        android:id="@+id/fprogress"
+        style="?android:attr/progressBarStyle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:visibility="visible"
+        android:layout_centerInParent="true" />
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/recycleView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@id/group"
+        android:paddingTop="2dp"
+        tools:listitem="@layout/user_layout" />
+</RelativeLayout>

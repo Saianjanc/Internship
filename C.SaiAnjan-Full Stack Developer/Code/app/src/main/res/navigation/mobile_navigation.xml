@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    app:startDestination="@id/chatList">
+    <fragment
+        android:id="@+id/chatList"
+        android:name="com.sai.buddyup.ChatList"
+        android:label="Messages"
+        tools:layout="@layout/chat_list" />
+    <fragment
+        android:id="@+id/findFragment"
+        android:name="com.sai.buddyup.FindFragment"
+        android:label="Find People"
+        tools:layout="@layout/fragment_find" />
+    <fragment
+        android:id="@+id/profile"
+        android:name="com.sai.buddyup.Profile"
+        android:label="Profile"
+        tools:layout="@layout/profile" />
+</navigation>
