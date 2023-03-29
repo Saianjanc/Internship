@@ -11,12 +11,15 @@ BuddyUp App is an Chat Application in which we can Find new People with similar 
 Please take your time and please go through the PPT or the Demo video to see the functionality and working the of the project with the given link below:
 
 https://github.com/Saianjanc/Internship/blob/de19a80d1e2aed81c02e72be33b4602cfe1fabaf/C.SaiAnjan-Full%20Stack%20Developer/BuddyUp(ppt).pdf
+
 https://github.com/Saianjanc/Internship/blob/de19a80d1e2aed81c02e72be33b4602cfe1fabaf/C.SaiAnjan-Full%20Stack%20Developer/Demovideo.mp4
 
 You could also download, install and test the android apk app.
 
 Below are few screenshots shown of the BuddyUp Chat Application developed in Android Studio using Java and Google FireBase.
 
-![login](https://user-images.githubusercontent.com/87842675/228311317-298bf26a-6e42-4740-babc-1369d8b76c4c.png)
+Login Fragment             |  Signup Fragment
+:-------------------------:|:-------------------------:
+![](https://user-images.githubusercontent.com/87842675/228496570-1da45016-acdc-4dd7-8112-ad26dd238e4a.png)  |  ![](https://user-images.githubusercontent.com/87842675/228496643-5abd6f7c-5856-4a8d-b18d-5e1276dbb022.png)
 
 ![app](https://user-images.githubusercontent.com/87842675/228311402-72d63af4-6bb8-4607-9e0e-353f515af517.jpg)
